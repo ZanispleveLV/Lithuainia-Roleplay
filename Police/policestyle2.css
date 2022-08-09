@@ -1,0 +1,314 @@
+@import url(https:fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display);
+
+* {
+    font-family: 'Poppins',sans-serif;
+    cursor: default;
+  }
+  
+  #menu-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: #fff;
+    border-bottom: 1px solid #aaa;
+    z-index: 10;
+  }
+  
+  #menu {
+    margin: 7px 0px 0px 7px;
+  }
+  
+  #windows {
+    margin-top: 30px;
+  }
+  
+  .window {
+    width: 1200px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    top: 50px;
+    left: 300px;
+      box-shadow:  8px 8px 75px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 6px;
+  }
+  
+  .title_img{
+    width: 20px;
+      height: 20px;
+  }
+  
+  .title_text{
+      font-size: 18px;
+      font-weight: inherit;
+  }
+  
+  .title {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 7px 10px;
+    text-align: center;
+  }
+  
+  #menu-list {
+    width: 200px;
+    font-size: 0.8em;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    display: none;
+  }
+  
+  .toggleExpend {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .toggleDisplay {
+    display: inline;
+  }
+  
+  #menu-list > li {
+    float: left;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+  }
+  
+  #menu-list > li > .text {
+    margin: 0px 0px 0px 30px;
+  }
+  
+  .close{
+    float: right;
+    margin-left: 15px;
+  }
+  /* ==========================================================================
+      Applications
+  ========================================================================== */
+  #adminsettings {
+      position: absolute;
+      height: 525px;
+      width: 1200px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #adminsettings:target {
+      visibility: visible;
+  }
+  
+  
+  #settings {
+      position: absolute;
+      height: 525px;
+      width: 1200px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #settings:target {
+      visibility: visible;
+  }
+  
+  #regeln {
+     height: 80%;
+     width:  80%;
+     position: fixed;
+     z-index: 1;
+     max-height: 600px;
+     max-width: 1100px;
+     visibility: hidden;
+     overflow-y: hidden;     
+  }
+  
+  #regeln:target {
+    visibility: visible;
+  }
+  
+  #nol {
+      position: absolute;
+      height: 700px;
+      width: 1200px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #nol:target {
+      visibility: visible;
+  }
+  
+  #nos {
+      position: absolute;
+      height: 700px;
+      width: 1350px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #nos:target {
+      visibility: visible;
+  }
+  
+  #invest {
+      position: absolute;
+      height: 700px;
+      width: 1350px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #invest:target {
+      visibility: visible;
+  }
+  
+  #tickets {
+      position: absolute;
+      height: 700px;
+      width: 1350px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #tickets:target {
+      visibility: visible;
+  }
+  
+  #dojtickets {
+      position: absolute;
+      height: 700px;
+      width: 1350px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #dojtickets:target {
+      visibility: visible;
+  }
+  
+  #patient {
+      position: absolute;
+      height: 700px;
+      width: 1200px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #patient:target {
+      visibility: visible;
+  }
+  
+  #patrolsystem {
+      position: absolute;
+      height: 700px;
+      width: 1400px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #patrolsystem:target {
+      visibility: visible;
+  }
+  
+  #calendar {
+      position: absolute;
+      height: 800px;
+      width: 1400px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #calendar:target {
+      visibility: visible;
+  }
+  
+  #settings {
+      position: absolute;
+      height: 700px;
+      width: 1300px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #settings:target {
+      visibility: visible;
+  }
+  
+  #education {
+      position: absolute;
+      height: 700px;
+      width: 1350px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #education:target {
+      visibility: visible;
+  }
+  
+  #employees {
+      position: absolute;
+      height: 700px;
+      width: 1200px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #employees:target {
+      visibility: visible;
+  }
+  #academy {
+      position: absolute;
+      height: 700px;
+      width: 1200px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #academy:target {
+      visibility: visible;
+  }
+  
+  #medicines {
+      position: absolute;
+      height: 700px;
+      width: 1200px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #medicines:target {
+      visibility: visible;
+  }
+  
+  #lsvsCustomers {
+      position: absolute;
+      height: 700px;
+      width: 1200px;
+      visibility: hidden;
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  #lsvsCustomers:target {
+      visibility: visible;
+  }
+  
+  
