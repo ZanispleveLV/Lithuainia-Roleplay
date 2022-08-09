@@ -4579,14 +4579,6 @@
 .far {
  font-weight:400
 }
-@font-face {
- font-display:block;
- font-family:Font Awesome\ 5 Free;
- font-style:normal;
- font-weight:900;
- src:url(../fonts/fa-solid-900.1551f4f6.woff2) format("woff2"),
- url(../fonts/fa-solid-900.eeccf4f6.woff) format("woff")
-}
 .fa,
 .far,
 .fas {
