@@ -4576,24 +4576,45 @@
  position:static;
  width:auto
 }
-.fab {
- font-family:Font Awesome\ 5 Brands
-}
 .far {
  font-weight:400
+}
+@font-face {
+ font-display:block;
+ font-family:Font Awesome\ 5 Free;
+ font-style:normal;
+ font-weight:900;
+ src:url(../fonts/fa-solid-900.1551f4f6.woff2) format("woff2"),
+ url(../fonts/fa-solid-900.eeccf4f6.woff) format("woff")
 }
 .fa,
 .far,
 .fas {
- font-family:Font Awesome\ 5 Free
+ font-family:'Poppins',sans-serif
 }
 .fa,
 .fas {
  font-weight:900
 }
+@font-face {
+ font-display:block;
+ font-family: Material Icons;
+ font-style:normal;
+ font-weight:400;
+ src:url(../fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.c08197a9.woff2) format("woff2"),
+ url(../fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.99f5f787.woff) format("woff")
+}
 .material-icons {
  font-feature-settings:"liga";
- font-family:Material Icons
+ font-family: Material Icons
+}
+@font-face {
+ font-display:block;
+ font-family:Material Icons Outlined;
+ font-style:normal;
+ font-weight:400;
+ src:url(../fonts/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcel5euIg.8fceb488.woff2) format("woff2"),
+ url(../fonts/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcY.fba8609e.woff) format("woff")
 }
 .material-icons,
 .material-icons-outlined {
@@ -4667,7 +4688,7 @@ code,
 kbd,
 pre,
 samp {
- font-family:monospace,monospace;
+ font-family:'Poppins',sans-serif;
  font-size:1em
 }
 hr {
@@ -4680,8 +4701,7 @@ input,
 optgroup,
 select,
 textarea {
- font:inherit;
- font-family:inherit;
+ font-family:'Poppins',sans-serif;
  margin:0
 }
 optgroup {
@@ -15437,8 +15457,7 @@ body {
  -webkit-text-size-adjust:100%;
  -webkit-font-smoothing:antialiased;
  -moz-osx-font-smoothing:grayscale;
- font-smoothing:antialiased;
- font-family:Roboto,-apple-system,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:'Poppins',sans-serif;
  font-size:14px;
  line-height:1.5;
  min-height:100%;
@@ -16209,7 +16228,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
  border:2px dotted #38f
 }
 .leaflet-container {
- font-family:Helvetica Neue,Arial,Helvetica,sans-serif;
+ font-family:'Poppins',sans-serif;
  font-size:12px;
  font-size:.75rem;
  line-height:1.5
