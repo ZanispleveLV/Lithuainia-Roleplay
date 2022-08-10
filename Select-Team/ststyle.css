@@ -23,6 +23,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #151720;
+    transition: all .3s;
+}
+
+#buon:hover{
+    background-color: #20222B;
 }
 
 #headercontent{
