@@ -1,5 +1,4 @@
 @import url(https:fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display);
-@import url(https://kit.fontawesome.com/2619e907d7.js);
 
 body {
     background-color: #20222b;
@@ -11,9 +10,28 @@ body {
 header{
     background-color: #151720;
     height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 12px;
 }
 
+#buon{
+    padding: 4px 16px;
+    border-radius: 3px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#headercontent{
+    height: 28px;
+}
+
+span, i{
+    color: white;
+}
 
 button{
     width: 100%;
