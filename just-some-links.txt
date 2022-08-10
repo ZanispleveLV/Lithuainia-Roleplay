@@ -1,1 +1,10 @@
 https://kit.fontawesome.com/2619e907d7.js
+
+    <button>Police</button>
+    <button>Fire</button>
+    <button>EMS</button>
+    <button>Dispatch</button>
+    <button>Law</button>
+    <button>Civilian</button>
+    <button>DMW</button>
+    <button>Admin</button>
