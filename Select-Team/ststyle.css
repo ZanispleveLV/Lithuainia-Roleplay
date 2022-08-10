@@ -71,6 +71,7 @@ button{
     transition: all .25s;
     border: 2px solid transparent;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 button:hover{
