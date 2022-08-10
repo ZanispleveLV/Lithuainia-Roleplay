@@ -43,11 +43,12 @@ span, i{
     padding: 64px;
     border-radius: 16px;
     width: 100%;
-    max-width: 515px;
-    min-width: 320px;
+    max-width: 815px;
+    min-width: 620px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
     background-color: #151720;
     box-sizing: border-box;
 }
@@ -62,10 +63,10 @@ h1{
 button{
     color: #FFFAFA;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     background-color: #20222B;
     height: 56px;
-    width: 100%;
+    width: 340px;
     padding: 0 21px;
     border-radius: 8px;
     transition: all .25s;
@@ -75,4 +76,10 @@ button{
 
 button:hover{
     border: 2px solid #AF2D75;
+}
+
+
+#teamic{
+    font-size: 17px;
+    padding-right: 10px;
 }
