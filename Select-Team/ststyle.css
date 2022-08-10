@@ -32,11 +32,7 @@ header{
     background-color: #20222B;
 }
 
-#headercontent{
-    height: 28px;
-}
-
-span, i{
+span, #arrow{
     color: white;
     cursor: pointer;
 }
