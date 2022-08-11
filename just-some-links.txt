@@ -1,6 +1,1 @@
 https://kit.fontawesome.com/2619e907d7.js
-
-    <div id="dropdown">
-        <button id="dropbt"><i class="fa-solid fa-gear"></i>Settings</button>
-        <button id="dropbt"><i class="fa-solid fa-right-from-bracket"></i>Log out</button>
-    </div>

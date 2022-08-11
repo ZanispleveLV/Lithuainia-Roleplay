@@ -83,33 +83,35 @@ button:hover{
     padding-right: 10px;
 }
 
+
+#arrow{
+    rotate: 0deg;
+    transition: all .5s;
+}
+
+
+#buon:hover #arrow{
+    rotate: 180deg;
+}
+
 #dropdown{
-    margin-left: auto;
+    margin-top: 197px;
+    margin-right: -28px;
     background-color: #151720;
-    width: 100%;
-    max-width: 315px;
-    min-width: 120px;
+    border-radius: 5px;
+    padding: 10px;
     box-sizing: border-box;
-    padding: 32px;
-    border-radius: 16px;
+    width: 100%;
+    max-width: 240px;
+    min-width: 45px;
+    display: none;
+    transition: all .5s;
 }
 
-#dropbt{
-    color: #FFFAFA;
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    text-align: left;
-    background-color: #20222B;
-    height: 56px;
-    width: 260px;
-    padding: 0 21px;
-    border-radius: 8px;
-    transition: all .25s;
-    border: 2px solid transparent;
-    margin-bottom: 10px;
-    cursor: pointer;
+#dropbtn{
+    width: 220px;
 }
 
-#dropbt:hover{
-    border: 2px solid #AF2D75;
+#buon:hover #dropdown{
+    display: initial;
 }
