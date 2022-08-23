@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <script src="settings.js" defer></script>
+    <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+</head>
+<body class="light">
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="gamelogo" alt="logo">
+                </span>
+
+                <div class="text logo-text">
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="menu-links">
+
+                    <li class="display">
+                        <a>
+                            <i class='bx bx-moon icon' ></i>
+                            <span class="text nav-text">Display</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <ul>
+                <li class="">
+                    <a href="select.html">
+                        <i class='bx bx-home-alt icon' ></i>
+                        <span class="text nav-text">Home</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+            </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="heading">Settings</div>
+        <div class="edit">
+            <div class="edit-list">
+            <input type="password" placeholder="Enter your old password" class="inp">
+            <input type="password" placeholder="Enter your new password" class="inp">
+            <input type="password" placeholder="Renter your new password" class="inp">
+
+
+            <div class="select-btn2">
+                <span class="sBtn-text2">Select audio language</span>
+                <i class="bx bx-chevron-down"></i>
+            </div>
+            <ul class="options2">
+                <li class="option2">
+                    <span class="option-text">English</span>
+                </li>
+                <li class="option2">
+                    <span class="option-text">Lithuanian</span>
+                </li>
+                <li class="option2">
+                    <span class="option-text">?</span>
+                </li>
+            </ul>
+
+            <input type="button" value="Accept changes" class="inp-btn">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
