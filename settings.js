@@ -32,8 +32,6 @@ options.forEach(option =>{
 });
 
 
-
-
 selectBtn2.addEventListener("click", () => optionMenu.classList.toggle("active2"));       
 
 options2.forEach(option =>{
