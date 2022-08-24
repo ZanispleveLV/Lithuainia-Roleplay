@@ -255,7 +255,7 @@ body.dark .mode .sun-moon i.moon{
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--sidebar-color);
-    height: 400px;
+    height: 280px;
     width: 800px;
     border-radius: 8px;
     padding: 30px;
@@ -293,7 +293,7 @@ body.dark .mode .sun-moon i.moon{
     font-size: 16px;
     background-color: var(--sidebar-color);
     margin-right: 7px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .row::after{
@@ -302,8 +302,6 @@ body.dark .mode .sun-moon i.moon{
 }
 
 .edit-list{
-    height: 100%;
-    width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
 }

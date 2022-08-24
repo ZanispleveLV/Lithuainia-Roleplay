@@ -1,5 +1,5 @@
 const btn1 = document.querySelector(".display"),
-    icon = document.querySelector(".display"),
+    icon = document.querySelector(".display a i"),
     body = document.querySelector("body"),
     optionMenu = document.querySelector(".edit"),
     selectBtn = optionMenu.querySelector(".select-btn"),
@@ -19,6 +19,7 @@ const btn1 = document.querySelector(".display"),
       }
       });
 
+      
       selectBtn.addEventListener("click", () => optionMenu.classList.toggle("active"));       
 
 options.forEach(option =>{
