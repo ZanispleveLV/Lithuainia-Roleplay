@@ -333,16 +333,29 @@ body.dark .mode .sun-moon i.moon{
 .edit .options, .edit .options2{
     position: relative;
     padding: 20px;
-    width: 410px;
+    width: 400px;
     margin-top: 10px;
     border-radius: 8px;
     background: #fff;
     box-shadow: 0 0 3px rgba(0,0,0,0.1);
     display: none;
 }
-.edit.active .options, .edit.active2 .options2{
+.edit.active .options{
     display: block;
+    z-index: 99;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 370px;
 }
+
+.edit.active2 .options2{
+    display: block;
+    z-index: 99;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 370px;
+}
+
 .options .option, .options2 .option2{
     display: flex;
     height: 55px;
