@@ -37,7 +37,7 @@ selectBtn2.addEventListener("click", () => optionMenu.classList.toggle("active2"
 options2.forEach(option =>{
     option.addEventListener("click", ()=>{
         let selectedOption = option.querySelector(".option-text").innerText;
-        sBtn_text.innerText = selectedOption;
+        sBtn_text2.innerText = selectedOption;
 
         optionMenu.classList.remove("active2");
     });
