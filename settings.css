@@ -336,7 +336,7 @@ body.dark .mode .sun-moon i.moon{
     width: 400px;
     margin-top: 10px;
     border-radius: 8px;
-    background: #fff;
+    background: var(--sidebar-color);
     box-shadow: 0 0 3px rgba(0,0,0,0.1);
     display: none;
 }
@@ -364,7 +364,7 @@ body.dark .mode .sun-moon i.moon{
     padding: 0 16px;
     border-radius: 8px;
     align-items: center;
-    background: #fff;
+    background: var(--sidebar-color);
 }
 .options .option:hover, .options2 .option2:hover{
     background: #F2F2F2;
