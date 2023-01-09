@@ -1,0 +1,7 @@
+1. datu bāze (Login)
+2. datu bāze (If email == player.account.email(Steam) vai  username == player.account.username)
+3. datu bāze (player)
+4. datu bāze (vienotā sistēma)
+5. datu bāze (automašīnas)
+6. datu bāze (CSDD)
+7. datu bāze (adreses)
