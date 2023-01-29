@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===== Colors ===== */
+
+:root{
+  --background: #f5F0F1;
+  --text: #181d23;
+  --gray: #5E4D50;
+  --toogle: #FF2145;
+}
+
+body.dark{
+  --background: #181d23;
+  --text: #fff;
+  --gray: #5E4D50;
+  --toogle: #FF2145;
+}
+
+/* ===== Main Code ===== */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  height: 100vh;
+  background: var(--background);
+}
+
+.screen{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  width: 350px;
+}
+
+header{
+  text-align: center;
+  color: var(--text);
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.inp{
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  color: var(--text);
+  border-radius: 30px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.link{
+  color: var(--text);
+  text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+.btn{
+  width: 100%;
+  height: 45px;
+  border: 2px solid var(--toogle);
+  border-radius: 30px;
+  margin: 10px 0;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-weight: 500;
+  background-color: var(--toogle);
+}
+
+.btn:hover{
+  cursor: pointer;
+  color: var(--toogle);
+  background-color: #fff;
+}
+
+.text{
+  color: var(--text);
+  text-align: center;
+}
+
+/* Webkits */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* ===== Department Code ===== */
+
+/* ===== Code Here ===== */
+
+/* ===== Dispatch Code ===== */
+
+/* ===== Code Here ===== */
+
+/* ===== Regitra Code ===== */
+
+/* ===== Code Here ===== */
+
+/* ===== Admin Code ===== */
+
+/* ===== Code Here ===== */
+
+
+
+
+
+/* ===== Media Query ===== */
