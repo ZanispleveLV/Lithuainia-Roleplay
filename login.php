@@ -16,7 +16,7 @@
             <input type="password" placeholder="Password" class="inp">
             <a href="frgpsw.php" class="link">Forgot Password</a>
             <input type="submit" value="Login" class="btn">
-            <p class="text">Do not have account? <a href="register.php" class="link">Signup!</a></p>
+            <p class="text">Do not have an account? <a href="register.php" class="link">Signup!</a></p>
         </form>
     </div>
 </body>
