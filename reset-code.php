@@ -14,7 +14,7 @@
             <header>Code Verification</header>
             <input type="number" placeholder="Enter Code" class="inp">
             <input type="submit" value="Submit" class="btn">
-            <p class="text">Didin't recive a code? <a href="" class="link">Resend it!</a></p>
+            <p class="text">Didn't receive a code? <a href="" class="link">Resend it!</a></p>
         </form>
     </div>
 </body>
